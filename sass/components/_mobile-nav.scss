@@ -1,0 +1,22 @@
+.mobile__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 40px;
+}
+
+.mobile__item {
+  font-size: 40px;
+
+  a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+}
+
+.mobile__item--blue a {
+  color: var(--blue-color);
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,41 @@
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+}
+header > .container {
+  height: 60px;
+}
+.container--footer {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  header .container {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container--footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .container--footer {
+    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
+  }
+}

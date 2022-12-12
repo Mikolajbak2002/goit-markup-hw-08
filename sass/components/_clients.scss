@@ -1,0 +1,35 @@
+.client__list li {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 210px;
+  height: 92px;
+  fill: #afb1b8;
+  box-sizing: border-box;
+  &:focus {
+    fill: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    cursor: pointer;
+  }
+  &:hover {
+    fill: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    cursor: pointer;
+  }
+}
+.client__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 30px;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .client__list {
+    flex-wrap: nowrap;
+    margin-bottom: 94px;
+  }
+}

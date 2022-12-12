@@ -1,0 +1,22 @@
+.mobile-contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 40px;
+  margin-top: 302px;
+  letter-spacing: 0.02em;
+}
+
+.mobile-contacts__item--tel a {
+  font-size: 34px;
+  color: var(--blue-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.mobile-contacts__item--mail a {
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--description-color);
+}

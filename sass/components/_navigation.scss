@@ -1,0 +1,42 @@
+.navigation {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-left: 83px;
+  }
+  .navigation__item {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    color: var(--font-color);
+    &:focus,
+    &:hover {
+      color: var(--blue-color);
+    }
+  }
+
+  .navigation__item--blue {
+    color: var(--blue-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navigation {
+    justify-content: space-between;
+    gap: 46px;
+    margin-left: 93px;
+    margin-right: 371px;
+  }
+}

@@ -1,0 +1,20 @@
+.mobile-links__list {
+  gap: 10px;
+  margin-left: 40px;
+  margin-top: 64px;
+}
+
+.mobile-links__item {
+  text-decoration: none;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  a {
+    text-decoration: none;
+    color: var(--blue-color);
+  }
+  &:last-of-type {
+    border: none;
+  }
+}
