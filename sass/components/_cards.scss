@@ -21,9 +21,7 @@
   height: 120px;
   margin-bottom: 30px;
 }
-.Card--antenna {
-  padding-left: 90px;
-}
+
 .Card__header {
   font-size: 14px;
   font-weight: 700;
@@ -39,7 +37,6 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--description-color);
-  width: 450px;
 }
 @media screen and (min-width: 768px) {
   .Card {
