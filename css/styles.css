@@ -351,6 +351,10 @@ h1 {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--main-color);
 }
+.workers__figure img {
+  width: 100%;
+  height: auto;
+}
 .workers__list {
   display: flex;
   justify-content: center;
